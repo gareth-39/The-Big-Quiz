@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="pat-to-javascript-file.js"></script>
     <title>The Big Quiz</title>
 </head>
 <body>
@@ -12,12 +13,21 @@
         <div id="home" class="flex-column flex-center">
             <h1>The Big Quiz</h1>
             <h2>Lets Get Started?</h2>
-            <h3>Ready Steady Go</h3>
-            <a href="/assets/js/script.js" class="btn">Start</a>
-            
-            <a href="/topscores.html" id="topscore-btn" class="btn"Play>Top Scores</a>
+            <label for="username">Enter a Username</label><br><br>
+            <input type="text" id="username" name ="UserName" required minlength="4" maxlength="8" placeholder="Enter Username">
+            <input type="submit" value="Submit">
+        </label>
+          
+        <div class="btn">Start</div>
+            <div id="topscore-btn" class="btn">Top Scores</div>
             
         </div>
+    </div>
+    <div id="quiz-container">
+        <h1>Quiz app</h1>
+    </div>
+    <div id="top-score-container">
+        <h1>Top score</h1>
     </div>
 </body>
 </html>
