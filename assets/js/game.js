@@ -2,8 +2,7 @@ const data = [
     
     {
     id: "1",
-    question: "Who shot J.R?",
-    
+    question: "Who shot J.R?",   
     option1: "Kristen Stewart",
     option2: "Brad Pitt",
     option3: "Donald Trump",
@@ -109,3 +108,33 @@ const data = [
     correctAnswer:  "Russia",
     }
 ]
+
+
+let game = document.getElementById("game")
+let nextBtn = document.getElementById("next-btn")
+
+function displayQuiz () {
+    const random = Math.floor(Math.random() * data.length);
+    const quiz = data[random]
+    console.log(data[random], "<===data")
+
+    game.innerHTML = `
+          <div id="single-game">
+          <h1>Question: ${quiz.question}</h1>
+          <p>Option 1: ${quiz.option1}</p>
+          <p>Option 2: ${quiz.option2}</p>
+          <p>Option 3: ${quiz.option3}</p>
+          <p>Option 4: ${quiz.option4}</p>
+          </div>
+    `
+}
+
+console.log(game.innerHTML)
+
+
+nextBtn?.addEventListener("click", displayQuiz)
+
+displayQuiz();
+
+
+
