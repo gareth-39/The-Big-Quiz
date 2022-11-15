@@ -109,7 +109,3 @@ const data = [
     correctAnswer:  "Russia",
     }
 ]
-
-var item = data[Math.floor(Math.random()*data.lenght)];
-
-console.log(item, "==data>")
