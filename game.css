@@ -1,5 +1,5 @@
 :root {
-    background-color: pink;
+    background: orange;
 }
 .game-container {
     width: 100vw;
@@ -12,12 +12,14 @@
 }
 .option-container {
     display: flex;
+    
     margin-bottom: 0.8rem;
-    width: 100%;
-    border-radius: 4px;
-    background: firebrick;
+    width: 10rem;
+    border-radius: 2px;
+    background: rgb(4, 16, 251);
     font-size: 3rem;
-    min-width: 80rem;
+    min-width: 40rem;
+    
 }
 .option-container:hover {
     cursor: pointer;
@@ -25,12 +27,13 @@
 }
 .option-prefix {
     padding: 2rem 2.5rem;
-    color: #fff;
+    color: white;
 }
 .optiion-text {
     padding: 2rem;
     width: 100%;
 }
+
 .correct {
     background: green;
 }
@@ -45,12 +48,13 @@
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    padding-left: 3%;
 }
 .hud-main-text {
     text-align: center;
 }
 #progressBar {
-    width: 20rem;
+    width: 40rem;
     height: 3rem;
     border: 0.2rem solid green;
     margin-top: 2rem;
@@ -61,4 +65,8 @@
     height: 100%;
     width: 0%;
     background: green;
+}
+
+.nextButton {
+    
 }

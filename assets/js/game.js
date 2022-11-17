@@ -129,12 +129,14 @@ function displayQuiz () {
     `
 }
 
-console.log(game.innerHTML)
+title.classlist.add('hide'). Playbutton.classlist.add('hide')
+Form.classlist.add('hide'). highscores.classlist.add('hide').
+Questions.classlist.remove('hide')
 
 
 nextBtn?.addEventListener("click", displayQuiz)
 
 displayQuiz();
 
-
+startQuiz()
 
