@@ -1,3 +1,64 @@
 :root {
-    background-color: aquamarine;
+    background-color: pink;
+}
+.game-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.option-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: firebrick;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+.option-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.option-prefix {
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+.optiion-text {
+    padding: 2rem;
+    width: 100%;
+}
+.correct {
+    background: green;
+}
+.incorrect {
+    background-color: red;
+}
+/* Heads up display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text {
+    text-align: center;
+}
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid green;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBarFull {
+    height: 100%;
+    width: 0%;
+    background: green;
 }
