@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="quiz, the big quiz, test your knowledge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Big Quiz</title>
+
+    <!-- google fonts and font awseome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Big Quiz</title>
 </head>
 <body>
-    <div class="container">
+    <header id="heading">
+    <h1>The Big Quiz</h1>
+ </header>
+      <div class="container">
         <div id="home" class="flex-column flex-center">
-            <h1>The Big Quiz</h1>
-            <h2>Lets Get Started?</h2>
-            <label for="username">Enter a Username</label><br><br>
-            <input type="text" id="username" name ="UserName" required minlength="4" maxlength="8" placeholder="Enter Username">
-           
-        </label>
-          
-        <a href="/game.html" class="btn">Start</a>
-           
-            <a href="/topscores.html" id="topscore-btn" class="btn">Top Scores</a>
-            
+            <h3>Lets get started!</h3>
+                <a href="game.html" class="btn">Play<br><i class="fas fa-arrow-right"></i></a>
+                    <a href="highscores.html" id="highscore-btn" class="btn">High Scores 
+                        <br><i class="fas fa-crown"></i></a>
         </div>
     </div>
-    <div id="quiz-container">
-        <h1>Quiz app</h1>
-    </div>
-    <div id="top-score-container">
-        <h1>Top score</h1>
-    </div>
+    
+    
 
-    <script src="assets/js/home.js"></script>
+<script src="assets/js/javaScript.js"></script>
 </body>
 </html>

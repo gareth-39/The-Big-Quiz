@@ -1,0 +1,125 @@
+body {
+    color: yellow;
+    background-color: black;
+}
+
+.game-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#question {
+    font-size: 4.3rem;
+    color: yellow;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 1rem;
+
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.9rem;
+    width: 100%;
+    border-radius: 4px;
+    background: blue;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* Heads up display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid yellow;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    width: 0%;
+    background: blue;
+}
+
+footer {
+    border-style: solid;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fa-linkedin {
+    font-size: 3.7rem;
+    color: firebrick;
+}
+
+.fa-github-square {
+    font-size: 3.7rem;
+    color: #fff;
+}
+
+.home-btn {
+    width: 15rem;
+    height: 3rem;
+    padding-bottom: 5.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+    
+}
