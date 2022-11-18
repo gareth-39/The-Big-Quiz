@@ -17,6 +17,11 @@ body {
     background-color: black;
    
 }
+#click {
+    color: yellow;
+    padding: 0;
+    background-color: blue;
+}
 
 h1 {
     font-size: 6.4rem;
