@@ -85,31 +85,6 @@ body {
     background: blue;
 }
 
-footer {
-    border-style: solid;
-    background-color: black;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-.footer-icons {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.fa-linkedin {
-    font-size: 3.7rem;
-    color: firebrick;
-}
-
-.fa-github-square {
-    font-size: 3.7rem;
-    color: #fff;
-}
 
 .home-btn {
     width: 15rem;

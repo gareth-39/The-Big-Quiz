@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    font-family: 'oswald', sans-serif;
+    font-family: 'Nova Square';
 }
 
 #heading {
@@ -89,31 +89,7 @@ h3 {
     margin-left: 1rem;
 }
 
-footer {
-    border-style: solid;
-    background-color: black;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
 
-.footer-icons {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.fa-linkedin {
-    font-size: 3.7rem;
-    color: firebrick;
-}
-
-.fa-github-square {
-    font-size: 3.7rem;
-    color: #fff;
-}
 
 .end-form-container {
     width: 100%;
@@ -133,7 +109,7 @@ input {
 }
 
 input::placeholder {
-    color: #aaa;
+    color: blue;
 }
 
 #username {
@@ -145,11 +121,13 @@ input::placeholder {
 #end-text {
     font-size: 2.4rem;
     text-align: center;
-    color: #fff;
+    color: black;
+    margin-left: -9%;
 }
 
-#saveScoreBtn {
+.btn {
     border: none;
+    margin-right: 44%;
 }
 
 

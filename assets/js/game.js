@@ -12,10 +12,10 @@ let availableQuestions = []
     
 let questions = [{
     question: "Who shot J.R ?",   
-    option1: 'Kristen Stewart',
-    option2: 'Brad Pitt',
-    option3: 'Donald Trump',
-    option4: 'Will Smith',
+    choice1: 'Kristen Stewart',
+    choice2: 'Brad Pitt',
+    choice3: 'Donald Trump',
+    choice4: 'Will Smith',
     answer:  1,
    
     },
@@ -23,10 +23,10 @@ let questions = [{
     {
     
     question: "What is 5 squared ?",
-    option1: '65',
-    option2: '34',
-    option3: '25',
-    option4: '76',
+    choice1: '65',
+    choice2: '34',
+    choice3: '25',
+    choice4: '76',
     answer:    3,
     },
     
@@ -34,10 +34,10 @@ let questions = [{
     {
     
     question: "Whers is the north pole ?",
-    option1: 'The Pacific Ocdean',
-    option2: 'The Black Sea',
-    option3: 'The Red Sea',
-    option4: 'The Arctic Ocean',
+    choice1: 'The Pacific Ocdean',
+    choice2: 'The Black Sea',
+    choice3: 'The Red Sea',
+    choice4: 'The Arctic Ocean',
     answer:   4,
     },
     
@@ -46,21 +46,21 @@ let questions = [{
    
     question: "What is a group of jellyfish called ?",
    
-    option1: 'A Herd',
-    option2: 'A Swarm',
-    option3: 'A Smack',
-    option4: 'A School',
-    answer:   4,
+    choice1: 'A Herd',
+    choice2: 'A Swarm',
+    choice3: 'A Smack',
+    choice4: 'A School',
+    answer:   3,
     },
     
     {
     
     question: "How many presidents has there been in the U.S.A ?",
 
-    option1: '1',
-    option2: '45',
-    option3: '8',
-    option4: '22',
+    choice1: '1',
+    choice2: '45',
+    choice3: '8',
+    choice4: '22',
     answer:   2,
     },
     
@@ -68,10 +68,10 @@ let questions = [{
    
     question: "What is the internet commonally known as ?",
 
-    option1: 'World wide web',
-    option2: 'Web world wide',
-    option3: 'Wide web world',
-    option4: 'World web wide',
+    choice1: 'World wide web',
+    choice2: 'Web world wide',
+    choice3: 'Wide web world',
+    choice4: 'World web wide',
     answer:   4,
     },
     
@@ -79,10 +79,10 @@ let questions = [{
     
     question: "What is the largest planet in our solar system ?",
    
-    option1: 'Saturn',
-    option2: 'Mars',
-    option3: 'Jupiter',
-    option4: 'Earth',
+    choice1: 'Saturn',
+    choice2: 'Mars',
+    choice3: 'Jupiter',
+    choice4: 'Earth',
     answer:   3,
     },
    
@@ -90,10 +90,10 @@ let questions = [{
     
     question: "Who makes the big mac ?",
     
-    option1: 'K.F.C',
-    option2: 'Burger King',
-    option3: '5 Guys',
-    option4: 'McDonalds',
+    choice1: 'K.F.C',
+    choice2: 'Burger King',
+    choice3: '5 Guys',
+    choice4: 'McDonalds',
     answer:  4,
     },
     
@@ -101,10 +101,10 @@ let questions = [{
    
     question: "What boxer is known as The Greatest?",
    
-    option1: 'Mike Tyson',
-    option2: 'Muhammad Ali',
-    option3: 'Tyson Fury',
-    option4: 'Ricky Haton',
+    choice1: 'Mike Tyson',
+    choice2: 'Muhammad Ali',
+    choice3: 'Tyson Fury',
+    choice4: 'Ricky Haton',
     answer:  2,
     },
     
@@ -112,10 +112,10 @@ let questions = [{
     
     question: "What is the largest country in the world ?",
    
-    option1: 'Russia',
-    option2: 'Norway',
-    option3: 'America',
-    option4: 'Ireland',
+    choice1: 'Russia',
+    choice2: 'Norway',
+    choice3: 'America',
+    choice4: 'Ireland',
     answer:   1,
     }
 ]
