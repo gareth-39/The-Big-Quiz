@@ -2,6 +2,7 @@
 
 body {
     background-color: yellow;
+    overflow: hidden;
 }
 
 * {
@@ -137,4 +138,13 @@ cursor: pointer;
 
 #hs-heading {
     background-color: black;
+}
+
+.highscore {
+    font-size: 4.4rem;
+    text-align: center;
+    color: blue;
+   
+    font-family: 'Nova Square';
+    
 }
