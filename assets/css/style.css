@@ -125,7 +125,7 @@ input::placeholder {
     margin-left: -9%;
 }
 
-.btn {
+#saveScoreButton {
     border: none;
     margin-right: 44%;
 }
