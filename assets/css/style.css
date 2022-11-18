@@ -126,8 +126,9 @@ input::placeholder {
 }
 
 #saveScoreButton {
-    border: none;
-    margin-right: 44%;
+  flex-direction: column;
+  text-align: center;
+    
 }
 
 
