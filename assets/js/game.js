@@ -4,11 +4,11 @@ const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
     
 let questions = [{
     question: "Who shot J.R ?",   
@@ -68,7 +68,7 @@ let questions = [{
    
     question: "What is the internet commonally known as ?",
 
-    choice1: 'World wide web',
+    choice1: 'Wibbly wobbly wonder',
     choice2: 'Web world wide',
     choice3: 'Wide web world',
     choice4: 'World web wide',
@@ -118,16 +118,16 @@ let questions = [{
     choice4: 'Ireland',
     answer:   1,
     }
-]
+];
 
-const SCORE_POINTS = 100
-const MAX_QUESTIONS = 10
+const SCORE_POINTS = 100;
+const MAX_QUESTIONS = 10;
 
  let startGame = () => {
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
 }
 
 getNewQuestion = () => {
@@ -135,66 +135,63 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('end.html')
-    }
+    };
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
         const number = choice.dataset.number
         choice.innerText = currentQuestion['choice' + number]
-    })
+    });
 
-    availableQuestions.splice(questionsIndex, 1 )
+    availableQuestions.splice(questionsIndex, 1 );
 
-    acceptingAnswers = true
-}
+    acceptingAnswers = true;
+};
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return 
+        if(!acceptingAnswers) return ;
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset.number
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset.number;
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
-        const correctAnswer = choices[currentQuestion.answer - 1]
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        const correctAnswer = choices[currentQuestion.answer - 1];
         if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }   else if (classToApply === 'incorrect') {
-            correctAnswer.parentElement.classList.add('correct')
+            correctAnswer.parentElement.classList.add('correct');
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            correctAnswer.parentElement.classList.remove('correct')
-            getNewQuestion()
-        }, 1000)
-    })
-})
+            selectedChoice.parentElement.classList.remove(classToApply);
+            correctAnswer.parentElement.classList.remove('correct');
+            getNewQuestion();
+        }, 1000);
+    });
+});
 
  let incrementScore = num => {
-    score += num
-    scoreText.innerText = score
-}
-const mediaQuery = window.matchMedia('(min-width: 768px)')// Create a condition that targets viewports at least 768px wide
-
+    score += num;
+    scoreText.innerText = score;
+};
 
 function handleTabletChange(e) {
-  // Check if the media query is true
+ 
   if (e.matches) {
-    // Then log the following message to the console
-    console.log('Media Query Matched!')
-  }
+     console.log('Media Query Matched!')
+  };
 }
 
-startGame()
+startGame();
 

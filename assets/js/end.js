@@ -1,31 +1,31 @@
-const username = document.querySelector('#username')
-const saveScoreBtn = document.querySelector('#saveScoreBtn')
-const finalScore = document.querySelector('#finalScore')
-const mostRecentScore =localStorage.getItem('mostRecentScore')
+const username = document.querySelector('#username');
+const saveScoreBtn = document.querySelector('#saveScoreBtn');
+const finalScore = document.querySelector('#finalScore');
+const mostRecentScore =localStorage.getItem('mostRecentScore');
 
-const highScores = JSON.parse(localStorage.getItem('highScores')) || []
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-const MAX_HIGH_SCORES = 5
+const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !username.value;
-})
+});
 
 saveHighScore = e => {
-    e.preventDefault()
+    e.preventDefault();
 
         const score = {
             score: mostRecentScore,
             name: username.value
         };
-        const errorEl = document.getElementById("error")
+        const errorEl = document.getElementById("error");
         if(username.value.trim() == "" || username.value.length < 3){
           
-             errorEl.innerText = "please enter a valid username longer than 3"
+             errorEl.innerText = "please enter a valid username longer than 3";
         }else{
-            errorEl.innerText = ""
+            errorEl.innerText = "";
             highScores.push(score);
 
             highScores.sort((a,b) =>  b.score - a.score);
@@ -33,9 +33,7 @@ saveHighScore = e => {
     
             highScores.splice(5);
     
-            localStorage.setItem ('highScores', JSON.stringify(highScores))
-            window.location.assign('/')
+            localStorage.setItem ('highScores', JSON.stringify(highScores));
+            window.location.assign('/');
         }
-    
-    
-}
+    };
