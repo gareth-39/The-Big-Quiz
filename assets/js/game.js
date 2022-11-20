@@ -99,13 +99,13 @@ let questions = [{
     
     {
    
-    question: "What boxer is known as The Greatest?",
+    question: "Who is Robin Williams?",
    
-    choice1: 'Mike Tyson',
-    choice2: 'Muhammad Ali',
-    choice3: 'Tyson Fury',
-    choice4: 'Ricky Haton',
-    answer:  2,
+    choice1: 'An actor',
+    choice2: 'A singer',
+    choice3: 'A race car driver',
+    choice4: 'A fitness instructor',
+    answer:  1,
     },
     
     {
