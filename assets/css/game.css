@@ -60,6 +60,7 @@ body {
 }
 
 /* Heads up display */
+
 #hud {
     display: flex;
     justify-content: space-between;

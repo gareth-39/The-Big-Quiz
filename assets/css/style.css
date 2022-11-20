@@ -167,6 +167,7 @@ cursor: pointer;
     border-style: solid;
     background-color: black;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* media queries for mobile*/
@@ -176,4 +177,11 @@ cursor: pointer;
       width: 100%;
       
     }
+  }
+/* Lenght of saved name for highscore*/
+
+ #error{
+    font-size: 1.6rem;
+    margin: 10px;
+    
   }
