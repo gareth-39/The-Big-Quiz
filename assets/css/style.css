@@ -1,3 +1,5 @@
+/*Css for index.html and main Css for the Quiz*/
+
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 body {
@@ -83,6 +85,7 @@ h3 {
     background-color: black;
     border-radius: 4px;
 
+
 }
 
 .btn:hover {
@@ -93,6 +96,7 @@ h3 {
 
 
 
+/* Css for End.html*/
 
 .end-form-container {
     width: 100%;
@@ -129,6 +133,7 @@ input::placeholder {
     margin-left: -9%;
 }
 
+/* Css for Highscore.html*/
 
 .hs-container {
 font-size: 6.4rem;
@@ -149,6 +154,19 @@ cursor: pointer;
    
     font-family: 'Nova Square';
     
+}
+
+.save {
+    font-size: 2.6rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: blue;
+    border-style: solid;
+    background-color: black;
+    border-radius: 4px;
 }
 
 /* media queries for mobile*/

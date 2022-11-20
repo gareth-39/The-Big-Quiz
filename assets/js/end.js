@@ -23,7 +23,7 @@ saveHighScore = e => {
         const errorEl = document.getElementById("error");
         if(username.value.trim() == "" || username.value.length < 3){
           
-             errorEl.innerText = "please enter a valid username longer than 3";
+             errorEl.innerText = "PLEASE ENTER MORE THAN 3 LETTERS";
         }else{
             errorEl.innerText = "";
             highScores.push(score);
