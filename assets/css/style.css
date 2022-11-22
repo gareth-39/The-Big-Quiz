@@ -73,6 +73,8 @@ h3 {
     display: none;
 }
 
+/* For the buttons on each page */
+
 .btn {
     font-size: 2.6rem;
     padding: 2rem 0;
@@ -104,8 +106,11 @@ h3 {
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
+    
 
 }
+
+/* Css for Highscore.html*/
 
 input {
     margin-bottom: 1rem;
@@ -133,7 +138,7 @@ input::placeholder {
     margin-left: -9%;
 }
 
-/* Css for Highscore.html*/
+
 
 .hs-container {
 font-size: 6.4rem;
@@ -156,6 +161,7 @@ cursor: pointer;
     
 }
 
+/* save username button */
 .save {
     font-size: 2.6rem;
     padding: 2rem 0;
@@ -179,11 +185,20 @@ cursor: pointer;
   }
 
 
-/* media queries for mobile*/
+/* media queries for mobile on end.html*/
 
 @media screen and (max-width: 480px) {
     .end-form-container {
       width: 100%;
       
+      
     }
   }
+
+  @media only screen and (max-width: 650px) {
+    
+    h1 {
+        font-size: 5rem;
+    }
+}
+
