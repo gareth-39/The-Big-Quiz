@@ -75,6 +75,8 @@ body {
     text-align: center;
 }
 
+ /* Progress bar css*/
+ 
 #progressBar {
     width: 20rem;
     height: 3rem;
@@ -90,6 +92,7 @@ body {
     background: blue;
 }
 
+/*Home button css*/
 
 .home-btn {
     width: 15rem;
@@ -110,8 +113,6 @@ body {
     
 }
 
-
-
 /* Media queries for tablet*/
 
 @media screen and (max-width: 992px) {
@@ -119,10 +120,23 @@ body {
       width: 50%;
     }
   }
-/* MEedia queriws for smaller screens*/
+/* Media queries for smaller screens*/
 
   @media screen and (max-width: 600px) {
     .column {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+   #game {
       width: 100%;
     }
   }
