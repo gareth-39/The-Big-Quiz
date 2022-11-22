@@ -2,16 +2,46 @@
 
 # The Big Quiz
 
-## Purpose:
-The purpose of this quiz is to test peoples general knowledge, keep track of their score and then add there names to a high score leaderboard.
+# Opening Summary ;
+* Thank you for viewing my Second project, i look forward to receiving your feed back. This is a link to my github profile.<br><br>
+https://github.com/gareth-39<br><br>
 
-# Table of Contents
+* A link to my live site.<br><br>
+ https://gareth-39.github.io/The-Big-Quiz/<br><br>
+
+ #
+
+ # Table of Contents:
+* Purpose
 * My Idea
 * My quiz
 * UX/UI
 * Site Goals
 * The overall goal
-* The requirement
+* RequirementS
+* Design
+* Functionality
+* Testing
+- Code Validator
+- Javascript Results
+- Lighthouse Results
+- Css Results (Jigsaw)
+- Html Results (w3c validator)
+- Am i responsive
+* Functionality
+* Bugs and errors
+* User Stories
+* Credits
+- Icons
+- Fonts
+* Programs Used
+* My Thanks<br><br>
+
+#
+
+## Purpose:
+The purpose of this quiz is to test peoples general knowledge, keep track of their score and then add there names to a high score leaderboard.
+
 
 
 # My Idea:
@@ -94,7 +124,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 #  **Code Validation** <br><br>
 
 
-# JShint Results
+# Javascript Results (JShint):
 * All Javascript Error free
 * Three images added for each js file<br><br>
 ![js](/assets/images/readME-images/js%201.png)
@@ -112,55 +142,82 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 #
 
 
-# CSS Results:
+# CSS Results (Jigsaw):
 * Css passed on all pages<br><br>
 ![Css](/assets/images/readME-images/css.png)
 ![Css](/assets/images/readME-images/css2.png)<br><br>
 #
 
   
-# HTML Results:
+# HTML Results (W3C Validator):
 * Html passed on all pages<br><br>
 ![html](/assets/images/readME-images/quiz3.png)
 ![html](/assets/images/readME-images/quiz4.png)
 ![html](/assets/images/readME-images/quiz5.png)
 ![html](/assets/images/readME-images/quiz6.png)<br><br>
 
+#
+
+# Am i resposive:
+* Screenshot
+![rs](/assets/images/readME-images/responsive.png)<br><br>
+
+#
 
 
-## Functionality
+# Functionality
 * All links have been hovered over and clicked on to ensure accessibility
 * Pages all load correctly on all device screen sizes
 * Navigation buttons across different devices and screen sizes worked as intended
-* All images and font awesome icons load on as intended
+* All images and font awesome icons load on as intended<br><br>
 
 #
-## Bugs and errors
-### Solved bugs and errors
+# Bugs and Errors:
+* My javascript had two bugs, The first one was in the game javascript. When i added a highscore it returned a response of null. But with the help of google and slack i finally realized when the user pressed save i had disabled my save button. the fix was simple just read over my work carefully at all stages.
+
+* The second one my css was different one all pages i coudnt understand why. With help from my tutor he made me see my problem i had forgit to link my css file to each page in my html files.<br><br>
+
+#
+
+# User Stories:
+* Below is screenshots of my finished project
+![fp](/assets/images/readME-images/finish%201.png)
+![fp](/assets/images/readME-images/finish%202.png)
+![fp](/assets/images/readME-images/finish%203.png)
+![fp](/assets/images/readME-images/finish%204.png)<br><br>
+
+#
+
+# Deployment:
+* To deploy my project i went to github entered my The-Big-Quiz repository,
+continued to settings, in setting i proceeded to github pages. In github i went to deploy from a branch and used 
+
+
+# Credits:
+## Icons:
+* Taken from (http://fontawesome.com/)
+
+## Fonts:
+* Taken from (https://fonts.google.com/)
+
+## Youtube:
+* Some of my code was done watching and following tutorials from (http://youtube.com/@briandesign)
+
+
 
 
 
 #
-
-## Credits and References
-
-
-### Code Sources
-
-
-
-#
-## Programmes used
+## Programmes Used
 - HTML5
 - CSS3
 - Javascript 
 #
+
 ## My Thanks to:
 
 - My Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for his endless patience with me while answering my vast amount of questions.
 Slack.
-- Google for helping me debug and troubleshoot
-- Slack users who are so helpful every step of the way
-
-
+- Google (https://www.google.com/) for helping me debug and troubleshoot
+- Slack (https://app.slack.com/) users who are so helpful every step of the way
 
