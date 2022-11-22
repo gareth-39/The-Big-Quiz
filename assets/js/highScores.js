@@ -1,3 +1,5 @@
+/* Js for the highscore page*/
+
 const highScoresList = document.querySelector("#highScoresList");
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 

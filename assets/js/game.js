@@ -1,3 +1,4 @@
+/* All the js for the game page*/
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -9,7 +10,9 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-    
+
+    /*Questons and answers*/
+
 let questions = [{
     question: "Who shot J.R ?",   
     choice1: 'Kristen Stewart',
@@ -119,6 +122,7 @@ let questions = [{
     answer:   1,
     }
 ];
+/*Scoring marks*/
 
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
@@ -154,6 +158,8 @@ getNewQuestion = () => {
 
     acceptingAnswers = true;
 };
+
+/*Answer choice for correct and incorrect*/
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {

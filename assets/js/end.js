@@ -1,3 +1,5 @@
+/* All the js for the end game page */
+
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
 const finalScore = document.querySelector('#finalScore');

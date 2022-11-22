@@ -1,15 +1,23 @@
-# PORTFOLIO PROJECT - 2 JAVASCRIPT #
+# Javascript Project Number 2 - Code Institute #
 
 # The Big Quiz
 
 ## Purpose:
 The purpose of this quiz is to test peoples general knowledge, keep track of their score and then add there names to a high score leaderboard.
 
+# Table of Contents
+* My Idea
+* My quiz
+* UX/UI
+* Site Goals
+* The overall goal
+* The requirement
 
-## My Idea:
-My  idea for this project was to make a quiz that could test all levels of knowledge from an adult to a child.
 
-#### My Quiz:
+# My Idea:
+* My  idea for this project was to make a quiz that could test all levels of knowledge from an adult to a child.
+
+# My Quiz:
 ## Home page features:
 * A home page with a play button and highscore button.
 ## Quiz page features:
@@ -25,18 +33,13 @@ My  idea for this project was to make a quiz that could test all levels of knowl
 * Color coding for right answers which turn green, and wrong answers which turn red.
 * A highscore tracker to keep log of every username and score.
 
+# <br>
 
-#
-## Table of Contents
-- UX/UI
-* Site Goals
-* The overall goal
-* The requirements
 
 # UX/UI
 The quiz was created to show my programming knowledge of Javascript, HTML and CSS.
 
-## Site Goals
+# Site Goals
 
 * To show what i have learned in CSS, JAVASCRIPT and HTML. 
 * The provide an interactive experience that is easily accessible in terms of navigation and to manouver throughout the site.
@@ -45,34 +48,38 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 * To display how many correct points the user has achieved throughout the quiz at all times.
 * It needs to be instantly engaging to encourage the user to play the game.
 * Questions to be randomised and drawn from a bank of available questions.
-* The user must be able to leave the quiz if they wish to, and return to the home page.
+* The user must be able to leave the quiz if they wish to, and return to the home page.<br><br>
+#
 
-## The overall goal:
+# The overall goal:
 * To be easy for the user to start game play.
 * To be able to easily navigate throughout the site.
 * To be able to visit the leaderboard and review their highscores.
 
 
 #
-## Requirements 
+# Requirements 
 - Easy to navigate screen sizes and devices.
 - Accessible and easy play the quiz
 - Keep the user engaged through user experience; progress bar, score counter, end score and add their name on the leaderboard. 
 - Clear for all users to see and clearly navigate.
 
+
 #
-## Expectations 
+# Expectations 
 - That every part of my quiz worked as it ment to.
 - Each function button worked when it was pressed and and brought the user to the correct page.
 - It to be responsive no matter what device the user chose to be on.
 - All question and answer functions worked as they should in a clear and conccise manner.
+#
 
-## Design 
+# Design 
 - I used bright colours to make the quiz come off the screen so users are instantly comfortable with the layout.
 - I used Nova Squared font so all the writing was clear to the user and readable.
-- Big boxes for all my buttons so the used could always see what the cursor was doing at all times.
+- Big boxes for all my buttons so the users could always see what the cursor was doing at all times. 
+#
 
-## Functionality
+# Functionality
 * All buttons and links have been hovered over and clicked on to ensure accessibility.
 * All pages load correctly across all device screen sizes - see devices tested in testing section.
 * Functional buttons worked as intended on different device screen sizes.
@@ -82,25 +89,42 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 # Testing
 * Testing was carried on on a Dell latitude 7480, Samsumg galaxy s20 se, Samsung a7 tablet and a Samsung note 20+.
 
-## Code Validation 
-## **JSHint**
+#
+
+#  **Code Validation** <br><br>
 
 
-## **Lighthouse**
-The quiz was also put through Lighthouse testing via Chrome DevTools which tests the site under 4 different headings; Performance, Accessibility, Best Practices and SEO and it tests it under mobile and desktop criteria.
-<br>
+# JShint Results
+* All Javascript Error free
+* Three images added for each js file<br><br>
+![js](/assets/images/readME-images/js%201.png)
+![js](/assets/images/readME-images/js%202.png)
+![js](/assets/images/readME-images/js%203.png)<br><br>
+#
 
 
-## CSS
-**CSS Validator results:**
+# Lighthouse Reults
+* Four images from lighthouse:<br><br>
+![Lh](/assets/images/readME-images/light%20quiz1.png)
+![Lh](/assets/images/readME-images/light%20quiz%202.png)
+![Lh](/assets/images/readME-images/light%20quiz%203.png)
+![Lh](/assets/images/readME-images/light%20quiz%204.png)<br><br>
+#
 
 
+# CSS Results:
+* Css passed on all pages<br><br>
+![Css](/assets/images/readME-images/css.png)
+![Css](/assets/images/readME-images/css2.png)<br><br>
+#
 
   
-### HTML
-**HTML validator results**
-
-
+# HTML Results:
+* Html passed on all pages<br><br>
+![html](/assets/images/readME-images/quiz3.png)
+![html](/assets/images/readME-images/quiz4.png)
+![html](/assets/images/readME-images/quiz5.png)
+![html](/assets/images/readME-images/quiz6.png)<br><br>
 
 
 
@@ -115,7 +139,7 @@ The quiz was also put through Lighthouse testing via Chrome DevTools which tests
 ### Solved bugs and errors
 
 
-#
+
 #
 
 ## Credits and References
