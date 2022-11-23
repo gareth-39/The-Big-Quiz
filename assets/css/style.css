@@ -44,13 +44,13 @@ h3 {
     
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     align-items: center;
     display: flex;
     justify-content: center;
     max-width: 80rem;
     max-width: 0 ;
-    padding: 2rem;
+    padding: 0.1rem;
     margin-left: auto;
     margin-right: auto;
 }

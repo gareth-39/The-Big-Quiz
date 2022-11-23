@@ -53,12 +53,12 @@ The purpose of this quiz was to test peoples general knowledge, keep track of th
 ## Quiz Page Features:
 * A quiz page with a home button, questions, answers, and a score counter.
 ## End Page Features:
-* The end page feature has a save, play again, and a home button option. Also, there is input box to enter their name for highscore memory.
+* The end page feature has a save, play again, and a home button option. Also, there is an input box to enter their name for highscore memory.
 ## Highscore Page Features
 * The highscore page shows which users have recieved the highest scores. Also, a home button is on display.
 ## Combined Features for all Pages:
 * A good balance of questions to test all minds.
-* Bright colours on all pages so the users can clearly see everything on the pages.
+* Bright colours on all pages so the user can clearly see everything on the pages.
 * A finger pointer cursor that changes on different parts of the page to show the user what to do.
 *  A color coding framework for right and wrong answers, where right answers turn green and wrong answers turn red.
 * A highscore tracker to keep a log of every username and score.
@@ -105,7 +105,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 # Design 
 - I used bright colours to make the quiz stand out and create an attractive layout.
-- I used Nova Squared font so all the writing was clear to the user and readable for the user.
+- I used the Nova Squared font so all the writing was clear and readable for the user.
 - I used big boxes throughout so that users could continuously see what te cursor was doing.
 #
 
@@ -167,9 +167,9 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 #
 # Bugs and Errors:
-* Initially, my Javascript had two bugs, the first issue one was in the Javascript game. When i added a highscore it returned a response of null. However, with the help of Google and Slack, I finally realised that when the user pressed save the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
+* Initially, my Javascript had two bugs, the first issue one was in the Javascript game. When i added a highscore it returned a response of null. However, with the help of Google and Slack, I finally realised that when the user pressed save, the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
 
-* The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my tutor he helped me to recognise that i had forgotten to link my CSS file to each page in my HTML files.<br><br>
+* The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my mentor who helped me to recognise that I had forgotten to link my CSS file to each page in my HTML files.<br><br>
 
 #
 
@@ -183,8 +183,8 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 #
 
 # Deployment:
-* To deploy my project, I went to Github and entered my "The-Big-Quiz repository", then
-continued into settings, then in settings the section I proceeded to Github pages. Then, in Github I went to deploy from a branch and used a main branch and pressed save. Then I copied my Github.io link and pasted it into my readME.md file.
+* To deploy my project, I went to Github and entered my "The-Big-Quiz repository". Then, I
+continued into settings then in settings I proceeded into the Github pages. Once in Github, I deployed from a branch and then used a main branch and pressed save. Then, I copied my Github.io link and pasted it into my readME.md file.
 
 
 # Credits:
