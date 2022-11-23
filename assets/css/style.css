@@ -31,7 +31,7 @@ h1 {
     color: blue;
     text-align: center;
     font-stretch: expanded;
-    cursor: pointer;
+    
 }
 
 h3 {
@@ -145,7 +145,7 @@ font-size: 6.4rem;
 color: blue;
 text-align: center;
 font-stretch: expanded;
-cursor: pointer;
+
 }
 
 #hs-heading {

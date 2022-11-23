@@ -18,17 +18,16 @@ https://github.com/gareth-39<br><br>
 * UX/UI
 * Site goals
 * The overall goal
-* Requirement
+* Requirements
 * Design
 * Functionality
 * Testing
 * Code validator
 * Javascript results
 * Lighthouse results
-* Css results (Jigsaw)
-* Html results (w3c validator)
+* CSS results (Jigsaw)
+* HTML results (w3c validator)
 * Am i responsive
-* Functionality
 * Bugs and errors
 * User stories
 * Deployment
@@ -41,7 +40,7 @@ https://github.com/gareth-39<br><br>
 #
 
 ## Purpose:
-The purpose of this quiz is to test peoples general knowledge, keep track of their score, and then add their names to a high score leaderboard.
+The purpose of this quiz was to test peoples general knowledge, keep track of their score, and then add their names to a high score leaderboard.
 
 
 
@@ -49,19 +48,19 @@ The purpose of this quiz is to test peoples general knowledge, keep track of the
 * My  idea for this project was to make a quiz that could test all levels of knowledge, from children to adults.
 
 # My Quiz:
-## Home page features:
+## Home Page Features:
 * A home page with a play button and highscore button.
-## Quiz page features:
+## Quiz Page Features:
 * A quiz page with a home button, questions, answers, and a score counter.
-## End page features:
-* An end page has a save, play again, and a home button option. Also, there is input box to enter your name for highscore memory.
-## Highscore page features
-* A highscore page which shows the users who recieve the highest score. Also a home button is on display.
-## Combined features for all pages:
+## End Page Features:
+* The end page feature has a save, play again, and a home button option. Also, there is input box to enter their name for highscore memory.
+## Highscore Page Features
+* The highscore page shows which users have recieved the highest scores. Also, a home button is on display.
+## Combined Features for all Pages:
 * A good balance of questions to test all minds.
 * Bright colours on all pages so the users can clearly see everything on the pages.
 * A finger pointer cursor that changes on different parts of the page to show the user what to do.
-* Color coding framework for right answers and wrong answers, were right answers turn green and wrong answers turn red.
+*  A color coding framework for right and wrong answers, where right answers turn green and wrong answers turn red.
 * A highscore tracker to keep a log of every username and score.
 
 # <br>
@@ -72,27 +71,27 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 # Site Goals
 
-* To show what i have learned in CSS, JAVASCRIPT and HTML. 
+* To show what I have learned in CSS, JAVASCRIPT and HTML. 
 * To provide an interactive experience that is easily accessible in terms of navigation and to manouver throughout the site.
 * To personalise each users highscore to the quizes leaderboard.
 * To easily be able to see their progress and how many questions are left.
 * To display how many correct points the user has achieved throughout the quiz at all times.
 * It needs to be instantly engaging to encourage the user to play the game.
-* Questions to be randomised and drawn from a bank of available questions.
+* Questions to be randomised and drawn from the bank of available questions.
 * The user must be able to leave the quiz if they wish to, and return to the home page.<br><br>
 #
 
 # The overall goal:
 * To be easy for the user to start game play.
-* To be able to easily navigate throughout the site.
-* To be able to visit the leaderboard and review their highscores.
+* For users to easily navigate throughout the site.
+* To be able to visit the leaderboard and review highscores.
 
 
 #
 # Requirements 
-- Correspondsto all screen sizes and devices.
+- Corresponds to all screen sizes and devices.
 - Accessible and user friendly quiz.
-- Keeps the user engaged throughout their experience, which includes the functions of the progress bar, score counter, end score total and the attaches each name to the leaderboard. 
+- Keeps the user engaged throughout their experience, which includes the functions of the progress bar, score counter, end score total, and then attaches each name to the leaderboard. 
 - User friendly and clear navigation methods.
 
 
@@ -100,20 +99,20 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 # Expectations 
 - Every part of my quiz worked as it was meant to.
 - Each  button worked functionally when it was pressed and brought the user to the correct page.
-- For it to be responsive regardless of what device the user choose to be on.
+- For it to be responsive regardless of what device the user chose to be on.
 - All question and answer functions worked as they should in a clear and concise manner.
 #
 
 # Design 
-- I used bright colours to make the quiz stand off the screen so users are instantly comfortable with the layout.
-- I used Nova Squared font so all the writing was clear to the user and readable.
-- Big boxes for all my buttons so the users could always see what the cursor was doing at all times. 
+- I used bright colours to make the quiz stand out and create an attractive layout.
+- I used Nova Squared font so all the writing was clear to the user and readable for the user.
+- I used big boxes throughout so that users could continuously see what te cursor was doing.
 #
 
 # Functionality
 * All buttons and links have been hovered over and clicked on to ensure accessibility.
-* All pages load correctly across all device screen sizes - see devices tested in testing section.
-* Functional buttons worked as intended on different device screen sizes.
+* All pages load correctly across all device screen sizes (Please see testing section).
+* Functional buttons worked as intended and on different device screen sizes.
 
 #
 
@@ -144,14 +143,14 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 
 # CSS Results (Jigsaw):
-* Css passed on all pages<br><br>
+* CSS passed on all pages<br><br>
 ![CSS](/assets/images/readME-images/css.png)
 ![CSS](/assets/images/readME-images/css2.png)<br><br>
 #
 
   
 # HTML Results (W3C Validator):
-* Html passed on all pages<br><br>
+* HTML passed on all pages<br><br>
 ![HMTL](/assets/images/readME-images/quiz3.png)
 ![HTML](/assets/images/readME-images/quiz4.png)
 ![HTML](/assets/images/readME-images/quiz5.png)
@@ -166,17 +165,11 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 #
 
 
-# Functionality
-* All links were hovered over and clicked on to ensure accessibility.
-* Pages all load correctly on all device screen sizes.
-* Navigation buttons across different devices and screen sizes worked as intended.
-* All font awesome icons load on as intended.<br><br>
-
 #
 # Bugs and Errors:
-* Initially, my javascript had two bugs, the first one was in the game javascript. When i added a highscore it returned a response of null. However, with the help of google and slack, I finally realised that when the user pressed save the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
+* Initially, my Javascript had two bugs, the first issue one was in the Javascript game. When i added a highscore it returned a response of null. However, with the help of Google and Slack, I finally realised that when the user pressed save the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
 
-* The second issue was my CSS file was different on all pages and I coudnt understand why. So, thanks to my tutor he helped me to recognise that i had forgotten to link my CSS file to each page in my HTML files.<br><br>
+* The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my tutor he helped me to recognise that i had forgotten to link my CSS file to each page in my HTML files.<br><br>
 
 #
 
@@ -190,8 +183,8 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 #
 
 # Deployment:
-* To deploy my project i went to github and entered my The-Big-Quiz repository, then
-continued into settings, then in settings section i proceeded to github pages. Then In github i went to deploy from a branch and used a main branch and pressed save. Then i copied my github.io link and pasted it into my readME.md file.
+* To deploy my project, I went to Github and entered my "The-Big-Quiz repository", then
+continued into settings, then in settings the section I proceeded to Github pages. Then, in Github I went to deploy from a branch and used a main branch and pressed save. Then I copied my Github.io link and pasted it into my readME.md file.
 
 
 # Credits:
@@ -214,9 +207,9 @@ continued into settings, then in settings section i proceeded to github pages. T
 
 ## My Thanks to:
 
-- Thanks to my mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for his endless patience with me while answering my plethora of questions.
+- Thanks to my mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/) for his endless patience with me and answering my plethora of questions.
 
-- Thanks to Google (https://www.google.com/) for helping me debug and troubleshoot any issue i had.
+- Thanks to Google (https://www.google.com/) for helping me debug and troubleshoot any issue I had.
 
 - Finally, thanks to my Slack group (https://app.slack.com/) who are so helpful and assist me every step of the way.
 
