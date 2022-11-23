@@ -91,7 +91,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 # Requirements 
 - Corresponds to all screen sizes and devices.
 - Accessible and user friendly quiz.
-- Keeps the user engaged throughout their experience, which includes the functions of the progress bar, score counter, end score total, and then attaches each name to the leaderboard. 
+- Keeps the user engaged throughout their experience. This includes the functions of the progress bar, score counter, end score total, and then attaches each name to the leaderboard. 
 - User friendly and clear navigation methods.
 
 
@@ -167,7 +167,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 #
 # Bugs and Errors:
-* Initially, my Javascript had two bugs, the first issue one was in the Javascript game. When i added a highscore it returned a response of null. However, with the help of Google and Slack, I finally realised that when the user pressed save, the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
+* Initially, my Javascript had two bugs, the first issue was in the Javascript game. When i added a highscore it returned a response of null. However, with the help of Google and Slack, I finally realised that when the user pressed save, the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
 
 * The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my mentor who helped me to recognise that I had forgotten to link my CSS file to each page in my HTML files.<br><br>
 
@@ -184,7 +184,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 # Deployment:
 * To deploy my project, I went to Github and entered my "The-Big-Quiz repository". Then, I
-continued into settings then in settings I proceeded into the Github pages. Once in Github, I deployed from a branch and then used a main branch and pressed save. Then, I copied my Github.io link and pasted it into my readME.md file.
+continued into the settings, once in settings I proceeded into the Github pages. Once in Github, I deployed from a branch and then used a main branch and pressed save. Then, I copied my Github.io link and pasted it into my readME.md file.
 
 
 # Credits:
@@ -197,6 +197,8 @@ continued into settings then in settings I proceeded into the Github pages. Once
 ## Youtube:
 * Some of my code was done watching and following tutorials from (http://youtube.com/@briandesign)
 
+## Code institute:
+* The Love Maths Project for giving me the skills and tools to be able to complete this project.(http://codeinstitute.net/).<br><br>
 
 #
 ## Programmes Used
