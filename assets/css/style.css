@@ -139,28 +139,6 @@ input::placeholder {
 }
 
 
-
-.hs-container {
-font-size: 6.4rem;
-color: blue;
-text-align: center;
-font-stretch: expanded;
-
-}
-
-#hs-heading {
-    background-color: black;
-}
-
-.highscore {
-    font-size: 4.4rem;
-    text-align: center;
-    color: blue;
-   
-    font-family: 'Nova Square';
-    
-}
-
 /* save username button */
 .save {
     font-size: 2.6rem;
